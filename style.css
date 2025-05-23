@@ -8,9 +8,16 @@ body {
     background-color: #1F2937;
 }
 
-.header-navbar, .header-links {
+.header-navbar {
     display: flex;
-    flex: 1;
+}
+
+.header-links {
+    
+}
+
+.header-hero {
+    
 }
 
 .info-header-text {
@@ -25,7 +32,10 @@ body {
 }
 
 .info-card img {
-    border: #3882F6;
+    border: 3px solid #3882F6;
+    border-radius: 10px;
+    height: 200px;
+    width: 200px;
 }
 
 .info-card {
@@ -46,6 +56,21 @@ body {
     font-style: normal;
     font-weight: bold;
     color: black;
+}
+
+.cta-box {
+    background-color: #3882F6;
+    margin: 4rem 10rem;
+    display: flex;
+    flex: 1;
+}
+
+.cta-text {
+    margin: 1rem 3rem;
+}
+
+.cta-button {
+
 }
 
 button {
