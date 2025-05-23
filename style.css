@@ -13,6 +13,25 @@ body {
     flex: 1;
 }
 
+.info-header-text {
+    text-align: center;
+}
+
+.info-gallery {
+    display: flex;
+    flex: 1;
+    padding: 2rem 6rem;
+    margin: 2rem 6rem;
+}
+
+.info-card img {
+    border: #3882F6;
+}
+
+.info-card {
+    text-align: center;
+}
+
 .quote-container {
     background-color: #E5E7EB;
     padding: 4rem 10rem;
@@ -31,4 +50,10 @@ body {
 
 button {
     background-color: #3882F6;
+}
+
+.footer {
+    background-color: #1F2937;
+    padding: 0.25rem;
+    text-align: center;
 }
